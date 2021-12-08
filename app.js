@@ -159,8 +159,8 @@ gsap.from('.education p', {
   ease: "back"
 });
 
-gsap.from('.feature .grid-3 .1r', {
-  scrollTrigger: '.feature .grid-3 .1r',
+gsap.from('.1-r', {
+  scrollTrigger: '.1-r',
   duration: 1,
   delay: 1,
   x: -100,
@@ -168,8 +168,8 @@ gsap.from('.feature .grid-3 .1r', {
   ease: "back"
 });
 
-gsap.from('.feature .grid-3 .1l', {
-  scrollTrigger: '.feature .grid-3 .1l',
+gsap.from('.1-l', {
+  scrollTrigger: '.1-l',
   duration: 1,
   delay: 1,
   x: 100,
