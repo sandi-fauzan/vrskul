@@ -114,7 +114,7 @@ gsap.from('.about a', {
 
 // Manfaat
 gsap.from('.manfaat h1', {
-  scrollTrigger: '.about h1',
+  scrollTrigger: '.manfaat h1',
   duration: 1,
   delay: 1,
   x: -200,
@@ -123,7 +123,7 @@ gsap.from('.manfaat h1', {
 });
 
 gsap.from('.manfaat p', {
-  scrollTrigger: '.about p',
+  scrollTrigger: '.manfaat p',
   duration: 1,
   delay: 1,
   x: -200,
@@ -133,7 +133,7 @@ gsap.from('.manfaat p', {
 
 // edu
 gsap.from('.education img', {
-  scrollTrigger: '.about img',
+  scrollTrigger: '.education img',
   duration: 1,
   delay: 1,
   x: -200,
@@ -142,7 +142,7 @@ gsap.from('.education img', {
 });
 
 gsap.from('.education h1', {
-  scrollTrigger: '.about h1',
+  scrollTrigger: '.education h1',
   duration: 1,
   delay: 1,
   x: 200,
@@ -151,7 +151,7 @@ gsap.from('.education h1', {
 });
 
 gsap.from('.education p', {
-  scrollTrigger: '.about p',
+  scrollTrigger: '.education p',
   duration: 1,
   delay: 1,
   x: 200,
@@ -194,6 +194,7 @@ gsap.from('.feature .grid-3 .2l', {
   opacity: 0,
   ease: "back"
 });
+
 gsap.from('.feature .grid-3 .3r', {
   scrollTrigger: '.feature .grid-3 .3r',
   duration: 1,
